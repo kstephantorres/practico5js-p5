@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+button{
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right:2px ;
+    margin-top: 10px;
+}
+main{
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    flex-grow:1;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.transparente{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  width: 500px;
+  margin: 6px;
+  
+}
+
+section .transparente:nth-child(2){
+  font-size: 30px;
+}
+section .transparente:nth-child(1){
+  font-size: 100px;
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+
+.transparente span{
+  width: 18%;
+}
+.boton{
+  font-size: 20px;
+  font-weight: bolder;
+  border: solid 2px;  
+}
+
+@media all and (max-width:500px){
+  .transparente{
+    width: 95vw;
+
+  }
+  section .transparente:nth-child(1){
+    font-size: 58px;
+    display:flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+
+}
+
